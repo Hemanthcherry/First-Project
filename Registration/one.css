@@ -1,0 +1,25 @@
+.outer{
+    margin:auto;
+    height:300px;
+    width: 400px;
+    border:2px solid black;
+    position:relative;
+}
+p{
+    margin-left:80px;    
+}
+.in{
+    margin-left:80px;
+    padding:10px;
+}
+#bt{
+    margin-top:20px;
+    position:absolute;
+    left:150px;
+}
+#bt:hover{
+    background: green;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+}
